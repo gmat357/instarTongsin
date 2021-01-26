@@ -1,10 +1,10 @@
 exports.mysql = ()=>{
     var mysql = require('mysql');
     var db = mysql.createConnection({
-        host:"woojinapp.cafe24app.com",
-        user:"gmas357",
-        password:"skdlwlfldk357",
-        database:"gmas357"
+        host:"instar.cafe24app.com",
+        user:"speed7223",
+        password:"aq1sw2de3*",
+        database:"speed7223"
     });
 
     return db;
