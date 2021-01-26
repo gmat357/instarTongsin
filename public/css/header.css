@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header_container {
+  width: 1920px;
+  height: 88px;
+}
+
+.header_container .header_box {
+  width: 1200px;
+  height: 88px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.header_container .header_box h4 {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  color: #444444;
+}
+
+.header_container .header_box img {
+  display: inline-block;
+}

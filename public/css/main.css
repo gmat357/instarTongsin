@@ -1,0 +1,320 @@
+@font-face {
+  font-family: 'Nanum_normal';
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot");
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix") format("embedded-opentype"), url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff") format("woff"), url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Nanum_normal",sans-serif;
+}
+
+.main_container {
+  width: 1920px;
+  height: 558px;
+  display: inline-block;
+}
+
+.main_container .swiper-container {
+  width: 1920px;
+}
+
+.main_container .swiper-container .swiper-wrapper .swiper-slide {
+  width: 1920px;
+  height: 558px;
+}
+
+.main_container .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.main_container .swiper-container .swiper-button-next, .main_container .swiper-container .swiper-button-prev {
+  color: white;
+}
+
+.main_container .three_price_box {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.main_container .three_price_box ul {
+  width: 100%;
+  height: 326px;
+  margin: 50px 0px;
+  display: inline-block;
+  text-align: center;
+}
+
+.main_container .three_price_box ul li {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  margin: 0px 10px;
+  border-radius: 20px;
+  border-bottom-right-radius: unset;
+  overflow: hidden;
+  -webkit-box-shadow: #cccccc 0 0 20px;
+          box-shadow: #cccccc 0 0 20px;
+}
+
+.main_container .three_price_box ul li .top_title {
+  text-align: left;
+  width: 100%;
+  height: 80px;
+}
+
+.main_container .three_price_box ul li .top_title img {
+  margin: 20px;
+}
+
+.main_container .three_price_box ul li .left_text, .main_container .three_price_box ul li .right_text {
+  width: 50%;
+  float: left;
+}
+
+.main_container .three_price_box ul li .left_text::after, .main_container .three_price_box ul li .right_text::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main_container .three_price_box ul li .left_text {
+  width: 50%;
+  text-align: left;
+}
+
+.main_container .three_price_box ul li .left_text h4 {
+  margin: 60px 20px;
+  letter-spacing: -1px;
+  font-size: 20px;
+  color: #444444;
+  line-height: 30px;
+}
+
+.main_container .three_price_box ul li .right_text h3 {
+  font-size: 20px;
+  margin: 60px 20px;
+}
+
+.main_container .three_price_box ul li .right_text h3 b {
+  font-size: 46px;
+}
+
+.main_container .three_price_box ul li .price_btn_box {
+  width: 90%;
+  height: 40px;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.main_container .three_price_box ul li .price_btn_box:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background-color: #030000;
+}
+
+.main_container .three_price_box ul li .price_btn_box:hover a {
+  color: white;
+}
+
+.main_container .three_price_box ul li .price_btn_box a {
+  color: #666666;
+}
+
+.main_container .three_price_box ul li:nth-of-type(1) {
+  border: 1px solid #ee64b2;
+}
+
+.main_container .three_price_box ul li:nth-of-type(1) .top_title {
+  background-color: #e40080;
+}
+
+.main_container .three_price_box ul li:nth-of-type(1) .right_text h3 {
+  color: #e40080;
+}
+
+.main_container .three_price_box ul li:nth-of-type(2) {
+  border: 1px solid #fdbb7a;
+}
+
+.main_container .three_price_box ul li:nth-of-type(2) .top_title {
+  background-color: #fd8f24;
+}
+
+.main_container .three_price_box ul li:nth-of-type(2) .right_text h3 {
+  color: #e40080;
+}
+
+.main_container .three_price_box ul li:nth-of-type(3) {
+  border: 1px solid #e8102b;
+}
+
+.main_container .three_price_box ul li:nth-of-type(3) .top_title {
+  background-color: #e8102b;
+}
+
+.main_container .three_price_box ul li:nth-of-type(3) .right_text h3 {
+  color: #e40080;
+}
+
+.main_container .board_sum_box {
+  width: 1200px;
+  height: 380px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.main_container .board_sum_box .left_board, .main_container .board_sum_box .right_board {
+  width: 46.5%;
+  height: 380px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: #cccccc 0 0 20px;
+          box-shadow: #cccccc 0 0 20px;
+}
+
+.main_container .board_sum_box .left_board .board_title {
+  width: 100%;
+  height: 62px;
+  background-color: #666666;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.main_container .board_sum_box .left_board .board_title h3 {
+  color: white;
+  text-align: left;
+  margin: 20px 40px;
+  font-weight: bold;
+}
+
+.main_container .board_sum_box .left_board table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 14px;
+  position: relative;
+}
+
+.main_container .board_sum_box .left_board table thead {
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+
+.main_container .board_sum_box .left_board table thead tr {
+  border-bottom: 1px dotted #cccccc;
+  height: 50px;
+}
+
+.main_container .board_sum_box .left_board table tbody {
+  position: absolute;
+  z-index: 9;
+}
+
+.main_container .board_sum_box .left_board table tbody tr {
+  height: 45px;
+}
+
+.main_container .board_sum_box .left_board table tbody tr td:nth-of-type(1) {
+  width: 92px;
+}
+
+.main_container .board_sum_box .left_board table tbody tr td:nth-of-type(2) {
+  width: 145px;
+}
+
+.main_container .board_sum_box .left_board table tbody tr td:nth-of-type(3) {
+  width: 170px;
+}
+
+.main_container .board_sum_box .left_board table tbody tr td:nth-of-type(4) {
+  width: 150px;
+}
+
+.main_container .board_sum_box .right_board .board_title {
+  width: 100%;
+  height: 62px;
+  background-color: #666666;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.main_container .board_sum_box .right_board .board_title h3 {
+  color: white;
+  text-align: left;
+  margin: 20px 40px;
+  font-weight: bold;
+}
+
+.main_container .board_sum_box .right_board table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 14px;
+  position: relative;
+}
+
+.main_container .board_sum_box .right_board table thead {
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+
+.main_container .board_sum_box .right_board table thead tr {
+  border-bottom: 1px dotted #cccccc;
+  height: 50px;
+}
+
+.main_container .board_sum_box .right_board table tbody {
+  position: absolute;
+  z-index: 9;
+}
+
+.main_container .board_sum_box .right_board table tbody tr {
+  height: 45px;
+}
+
+.main_container .board_sum_box .right_board table tbody tr td {
+  height: 20px;
+}
+
+.main_container .board_sum_box .right_board table tbody tr td:nth-of-type(1) {
+  width: 150px;
+}
+
+.main_container .board_sum_box .right_board table tbody tr td:nth-of-type(2) {
+  width: 280px;
+  height: 45px;
+}
+
+.main_container .board_sum_box .right_board table tbody tr td:nth-of-type(2) p {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main_container .board_sum_box .right_board table tbody tr td:nth-of-type(3) {
+  width: 110px;
+}

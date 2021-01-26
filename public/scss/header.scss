@@ -1,0 +1,24 @@
+@import 'variable';
+
+*{margin:0;padding:0;list-style:none;text-decoration: none;}
+
+.header_container{
+    width:$layout_width;
+    height:88px;
+    .header_box{
+        width:$content_width;
+        height:88px;
+        margin:0 auto;
+        text-align:center;
+        position: relative;
+        h4{
+            position:absolute;
+            left:10px;
+            top:30px;
+            color:#444444;
+        }
+        img{
+            display:inline-block;
+        }
+    }
+}

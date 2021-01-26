@@ -1,0 +1,40 @@
+.nav_container {
+  width: 1920px;
+  height: 60px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.nav_container .nav_box {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  border-top: 1px solid #cccccc;
+}
+
+.nav_container .nav_box ul li {
+  display: inline-block;
+  margin: 18px;
+}
+
+.nav_container .nav_box ul li a {
+  color: #444444;
+  font-weight: bold;
+}
+
+.nav_container .nav_box ul li a:hover {
+  color: #117bbc;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.nav_container .nav_box .left_menu {
+  float: left;
+}
+
+.nav_container .nav_box .right_menu {
+  float: right;
+}
+
+.nav_container .nav_box .right_menu li a {
+  color: #888888;
+}

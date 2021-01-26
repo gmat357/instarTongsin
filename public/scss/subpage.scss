@@ -1,0 +1,14 @@
+@import 'variable';
+@import 'font';
+
+*{font-family: "Nanum_normal",sans-serif;}
+
+
+.content_container{
+    width:$layout_width;
+    text-align:center;
+    margin:20px 0px;
+    img{
+        width:50%;
+    }
+}

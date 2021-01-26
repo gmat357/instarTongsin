@@ -1,0 +1,265 @@
+@import "variable";
+@import 'font';
+*{
+    font-family: "Nanum_normal",sans-serif;
+}
+.main_container{
+    width:$layout_width;
+    height:558px;
+    display:inline-block;
+    .swiper-container{
+        width:$layout_width;
+        .swiper-wrapper{
+            .swiper-slide{
+                width:$layout_width;
+                height:558px;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+        }
+        .swiper-button-next,.swiper-button-prev{
+            color:white;
+        }
+    }
+    .three_price_box{
+        width:$content_width;
+        height:400px;
+        margin:0 auto;
+        ul{
+            width:100%;
+            height:326px;
+            margin:50px 0px;
+            display:inline-block;
+            text-align:center;
+            li{
+                width:30%;
+                height:100%;
+                display:inline-block;
+                margin:0px 10px;
+                border-radius: 20px;
+                border-bottom-right-radius: unset;
+                overflow: hidden;
+                box-shadow: #cccccc 0 0 20px;
+            .top_title{
+                    text-align:left;
+                    width:100%;
+                    height:80px;
+                    img{
+                        margin:20px;
+                    }
+                }
+                .left_text,.right_text{
+                    width:50%;
+                    float:left;
+                    &::after{
+                        content: '';
+                        display: block;
+                        clear: both;
+                    }
+                }
+                .left_text{
+                    width:50%;
+                    text-align:left;
+                    h4{
+                        margin:60px 20px;
+                        letter-spacing: -1px;
+                        font-size:20px;
+                        color:#444444;
+                        line-height: 30px;
+                    }
+                }
+                .right_text{
+                    h3{
+                        font-size:20px;
+                        margin:60px 20px;
+                        b{
+                            font-size:46px;
+                        }
+                    }
+                }
+                .price_btn_box{
+                    width:90%;
+                    height:40px;
+                    border:2px solid #eeeeee;
+                    border-radius: 5px;
+                    display:inline-block;
+                    line-height:40px;
+                    font-weight:bold;
+                    font-size:14px;
+                    cursor: pointer;
+                    &:hover{
+                        transition-duration: 0.3s;
+                        background-color:#030000;
+                        a{
+                            color:white;
+                        }
+                    }
+                    a{
+                        color:#666666;
+                    }
+                }
+            } //three price box main end
+            li:nth-of-type(1){
+                border:1px solid #ee64b2;
+                .top_title{
+                    background-color:#e40080;
+                } 
+                .right_text{
+                    h3{
+                        color:#e40080;
+                    }
+                }
+            } //three price box main sub 1 end
+            li:nth-of-type(2){
+                border:1px solid #fdbb7a;
+                .top_title{
+                    background-color:#fd8f24;
+                } 
+                .right_text{
+                    h3{
+                        color:#e40080;
+                    }
+                }
+            } //three price box main sub 2 end
+            li:nth-of-type(3){
+                border:1px solid #e8102b;
+                .top_title{
+                    background-color:#e8102b;
+                } 
+                .right_text{
+                    h3{
+                        color:#e40080;
+                    }
+                }
+            } //three price box main sub 3 end
+        }
+    }
+    .board_sum_box{
+        width:$content_width;
+        height:380px;
+        margin:20px auto;
+        text-align:center;
+        .left_board,.right_board{
+            width:46.5%;
+            height:380px;
+            margin:0px 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            display:inline-block;
+            border:1px solid #cccccc;
+            box-shadow: #cccccc 0 0 20px;
+        }
+        .left_board{
+            .board_title{
+                width:100%;
+                height:62px;
+                background-color:#666666;
+                display:inline-block;
+                position:relative;
+                z-index: 10;
+                h3{
+                    color:white;
+                    text-align:left;
+                    margin:20px 40px;
+                    font-weight:bold;
+                }
+            }
+            table{
+                width:100%;
+                text-align:center;
+                border-collapse: collapse;
+                font-size:14px;
+                position: relative;
+                thead{
+                    tr{
+                        border-bottom:1px dotted #cccccc;
+                        height:50px;
+                    }
+                    position:relative;
+                    z-index: 10;
+                    background-color:white;
+                }
+                tbody{
+                    position: absolute;
+                    z-index:9;
+                    tr{
+                        height:45px;
+                        td:nth-of-type(1){
+                            width:92px;
+                        }
+                        td:nth-of-type(2){
+                            width:145px;
+                        }
+                        td:nth-of-type(3){
+                            width:170px;
+                        }
+                        td:nth-of-type(4){
+                            width:150px;
+                        }
+                    }
+                }
+            }
+        }   // left_board end
+        .right_board{
+            .board_title{
+                width:100%;
+                height:62px;
+                background-color:#666666;
+                display:inline-block;
+                position:relative;
+                z-index: 10;
+                h3{
+                    color:white;
+                    text-align:left;
+                    margin:20px 40px;
+                    font-weight:bold;
+                }
+            }
+            table{
+                width:100%;
+                text-align:center;
+                border-collapse: collapse;
+                font-size:14px;
+                position: relative;
+                thead{
+                    tr{
+                        border-bottom:1px dotted #cccccc;
+                        height:50px;
+                    }
+                    position:relative;
+                    z-index: 10;
+                    background-color:white;
+                }
+                tbody{
+                    position: absolute;
+                    z-index:9;
+                    tr{
+                        height:45px;
+
+                        td{
+                            height:20px;
+                        }
+                        td:nth-of-type(1){
+                            width:150px;
+                        }
+                        td:nth-of-type(2){
+                            width:280px;
+                            height:45px;
+                            p{
+                                width:250px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                        td:nth-of-type(3){
+                            width:110px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
