@@ -37,6 +37,10 @@ app.get('/inquiry_list',inquiryRouter);
 app.get('/inquiry_psw/:page',inquiryRouter);
 app.get('/review_list',reviewRouter);
 app.get('/review_psw/:page',reviewRouter);
+app.get('/Robots.txt',(req,res)=>{
+    res.sendFile(path.join(__dirname,"/Robots.txt"));
+})
+
 const port = 8002;
 
 app.use(function(req,res){
