@@ -37,8 +37,8 @@ app.get('/inquiry_list',inquiryRouter);
 app.get('/inquiry_psw/:page',inquiryRouter);
 app.get('/review_list',reviewRouter);
 app.get('/review_psw/:page',reviewRouter);
-app.get('/Robots.txt',(req,res)=>{
-    res.sendFile(path.join(__dirname,"/Robots.txt"));
+app.get('/robots.txt',(req,res)=>{
+    res.sendFile(path.join(__dirname,"/robots.txt"));
 })
 
 const port = 8002;
